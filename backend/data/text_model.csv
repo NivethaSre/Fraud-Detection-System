@@ -1,0 +1,851 @@
+Claim_ID,Return_Description,Text_Length,Urgency_Level,Customer_Type,Previous_Return_Count,Claim_Amount,Payment_Method,Image_Provided,Fraud_Label
+1,Wrong product received,32,High,Frequent,3,454.19,Credit Card,Yes,Fraud
+2,Item arrived damaged,35,Low,Returning,3,1015.66,Credit Card,Yes,Fraud
+3,Changed my mind,249,High,Frequent,0,1520.03,Debit Card,No,Fraud
+4,Size does not fit,99,Low,Frequent,1,194.56,Credit Card,No,Fraud
+5,Package was empty,155,Low,VIP,8,258.4,Net Banking,Yes,Fraud
+6,Package was empty,205,High,Returning,1,101.19,Debit Card,No,Legitimate
+7,Changed my mind,71,Medium,Frequent,7,1275.01,UPI,Yes,Fraud
+8,Defective after one use,127,High,Frequent,10,1299.59,Cash on Delivery,Yes,Legitimate
+9,Product not as described,256,Medium,Frequent,10,1379.44,Debit Card,No,Legitimate
+10,Changed my mind,36,Medium,VIP,4,141.72,Cash on Delivery,No,Legitimate
+11,Missing parts,222,High,VIP,2,537.11,Debit Card,No,Fraud
+12,Package was empty,224,Medium,Returning,2,1023.96,Credit Card,Yes,Legitimate
+13,Product not as described,101,High,VIP,9,136.42,Net Banking,No,Fraud
+14,Fake product received,25,High,New,10,1770.73,UPI,No,Legitimate
+15,Size does not fit,242,Low,VIP,0,1908.09,UPI,Yes,Legitimate
+16,Size does not fit,279,High,Returning,2,754.09,Debit Card,Yes,Fraud
+17,Missing parts,29,Low,Frequent,4,486.51,Debit Card,Yes,Legitimate
+18,Missing parts,55,High,Returning,2,1322.9,Cash on Delivery,Yes,Fraud
+19,Fake product received,236,Low,Returning,4,803.99,UPI,No,Fraud
+20,Wrong product received,146,Low,New,5,51.86,Cash on Delivery,Yes,Legitimate
+21,Item arrived damaged,56,High,New,3,144.13,Credit Card,No,Legitimate
+22,Fake product received,141,Medium,VIP,3,1083.08,Cash on Delivery,No,Legitimate
+23,Missing parts,228,Low,New,1,1321.38,UPI,No,Fraud
+24,Missing parts,47,High,New,0,811.22,UPI,Yes,Legitimate
+25,Changed my mind,117,High,VIP,2,849.54,UPI,No,Legitimate
+26,Wrong product received,246,High,New,0,1307.77,Cash on Delivery,Yes,Legitimate
+27,Changed my mind,105,Medium,VIP,7,435.36,Net Banking,Yes,Legitimate
+28,Color mismatch,21,Medium,Frequent,7,577.65,Cash on Delivery,No,Legitimate
+29,Changed my mind,171,Low,New,9,1474.12,Credit Card,No,Legitimate
+30,Item arrived damaged,264,High,Returning,0,1921.95,Credit Card,Yes,Legitimate
+31,Package was empty,54,High,Returning,6,248.57,Cash on Delivery,Yes,Legitimate
+32,Package was empty,61,Medium,Frequent,4,416.48,UPI,Yes,Fraud
+33,Color mismatch,87,High,Frequent,7,639.19,Credit Card,Yes,Fraud
+34,Package was empty,71,Low,Returning,8,537.75,UPI,Yes,Legitimate
+35,Defective after one use,165,Low,VIP,8,1410.04,Cash on Delivery,Yes,Fraud
+36,Wrong product received,88,Medium,New,1,1487.41,Debit Card,No,Fraud
+37,Package was empty,127,High,Frequent,3,1378.12,UPI,No,Fraud
+38,Item arrived damaged,67,High,VIP,4,97.73,UPI,Yes,Fraud
+39,Product not as described,246,High,VIP,8,29.24,Credit Card,Yes,Legitimate
+40,Defective after one use,95,Medium,Returning,0,623.43,Credit Card,No,Legitimate
+41,Changed my mind,72,Medium,VIP,9,1501.46,Debit Card,Yes,Legitimate
+42,Color mismatch,32,Low,Frequent,6,1606.45,Debit Card,No,Legitimate
+43,Wrong product received,215,Low,VIP,3,407.15,Net Banking,No,Fraud
+44,Changed my mind,134,Low,Returning,6,663.24,Credit Card,No,Fraud
+45,Fake product received,224,High,Frequent,0,239.53,UPI,Yes,Fraud
+46,Item arrived damaged,75,High,VIP,5,1459.8,UPI,No,Legitimate
+47,Color mismatch,117,Medium,New,6,13.37,Cash on Delivery,Yes,Fraud
+48,Color mismatch,55,High,Frequent,9,634.69,Credit Card,No,Fraud
+49,Color mismatch,187,Medium,Frequent,8,263.3,Net Banking,No,Legitimate
+50,Package was empty,174,Medium,New,4,580.96,Net Banking,No,Fraud
+51,Missing parts,246,High,Returning,8,951.64,Debit Card,Yes,Fraud
+52,Fake product received,191,Low,Returning,10,627.73,Debit Card,Yes,Legitimate
+53,Item arrived damaged,145,Medium,New,7,834.74,Cash on Delivery,Yes,Fraud
+54,Missing parts,224,Low,Returning,10,1378.37,Credit Card,No,Legitimate
+55,Product not as described,285,Medium,New,8,505.9,Credit Card,No,Legitimate
+56,Missing parts,291,High,Frequent,7,1229.18,Cash on Delivery,No,Fraud
+57,Product not as described,263,Medium,Frequent,3,1681.33,UPI,No,Legitimate
+58,Size does not fit,245,Low,Frequent,3,550.71,UPI,Yes,Legitimate
+59,Product not as described,138,Medium,Returning,3,137.82,Net Banking,No,Fraud
+60,Color mismatch,51,Low,VIP,6,1810.63,Cash on Delivery,Yes,Fraud
+61,Missing parts,23,Medium,Frequent,6,1708.36,Net Banking,Yes,Fraud
+62,Changed my mind,159,Medium,VIP,0,783.83,Net Banking,Yes,Fraud
+63,Product not as described,293,Low,VIP,9,1133.14,Credit Card,Yes,Fraud
+64,Product not as described,256,Low,New,4,764.42,Debit Card,No,Fraud
+65,Defective after one use,214,Medium,VIP,4,1671.47,Net Banking,Yes,Legitimate
+66,Defective after one use,134,High,New,10,90.11,Credit Card,Yes,Legitimate
+67,Item arrived damaged,98,Low,Returning,7,1342.22,Cash on Delivery,Yes,Fraud
+68,Size does not fit,208,Low,New,2,1929.79,Credit Card,Yes,Fraud
+69,Package was empty,212,Medium,Returning,1,1188.27,Debit Card,Yes,Fraud
+70,Package was empty,81,High,New,5,1070.16,UPI,Yes,Fraud
+71,Item arrived damaged,235,Medium,New,6,1921.97,Net Banking,Yes,Fraud
+72,Product not as described,287,High,Frequent,9,1618.32,Cash on Delivery,No,Fraud
+73,Color mismatch,157,Medium,Returning,1,565.07,Net Banking,Yes,Fraud
+74,Package was empty,214,Medium,New,7,1703.4,Debit Card,No,Legitimate
+75,Defective after one use,152,Medium,Frequent,9,1405.36,UPI,Yes,Legitimate
+76,Wrong product received,143,High,VIP,7,1114.8,Debit Card,No,Fraud
+77,Missing parts,28,Low,Frequent,3,814.76,Debit Card,No,Fraud
+78,Missing parts,291,Medium,VIP,8,668.27,Net Banking,No,Fraud
+79,Size does not fit,138,Low,Returning,5,247.91,Cash on Delivery,Yes,Legitimate
+80,Changed my mind,267,Medium,Frequent,1,1666.93,UPI,Yes,Fraud
+81,Product not as described,174,Low,Returning,4,100.58,Credit Card,No,Legitimate
+82,Missing parts,72,Low,Frequent,7,962.64,UPI,Yes,Legitimate
+83,Size does not fit,264,Low,New,6,988.58,Cash on Delivery,Yes,Legitimate
+84,Product not as described,175,Low,Returning,1,1120.57,Net Banking,Yes,Fraud
+85,Missing parts,246,Medium,VIP,4,1141.57,Credit Card,Yes,Legitimate
+86,Changed my mind,155,High,New,2,487.33,Cash on Delivery,Yes,Legitimate
+87,Item arrived damaged,229,Medium,VIP,4,74.95,UPI,No,Fraud
+88,Wrong product received,139,Medium,Returning,6,238.4,Debit Card,Yes,Fraud
+89,Product not as described,56,Low,Returning,4,1194.14,Cash on Delivery,No,Fraud
+90,Wrong product received,259,High,Frequent,6,1885.93,Cash on Delivery,No,Fraud
+91,Wrong product received,40,Medium,Frequent,9,508.23,Credit Card,Yes,Legitimate
+92,Size does not fit,40,Low,VIP,8,1306.5,UPI,Yes,Fraud
+93,Missing parts,66,Medium,Frequent,6,673.28,Credit Card,Yes,Fraud
+94,Color mismatch,273,Medium,VIP,8,83.03,Credit Card,No,Fraud
+95,Defective after one use,79,Medium,New,10,1740.04,Net Banking,No,Legitimate
+96,Changed my mind,285,Medium,VIP,10,889.66,Credit Card,Yes,Fraud
+97,Fake product received,87,Medium,VIP,7,251.64,Cash on Delivery,Yes,Legitimate
+98,Size does not fit,27,High,VIP,1,457.15,Credit Card,No,Legitimate
+99,Product not as described,275,High,Frequent,8,1413.77,Net Banking,No,Fraud
+100,Changed my mind,253,High,Returning,6,389.31,Cash on Delivery,Yes,Legitimate
+101,Size does not fit,232,Medium,Frequent,0,572.85,UPI,No,Legitimate
+102,Missing parts,295,Medium,Frequent,5,1108.32,Cash on Delivery,No,Fraud
+103,Defective after one use,116,High,Returning,9,772.11,Net Banking,Yes,Fraud
+104,Missing parts,215,Medium,Returning,7,1930.0,Debit Card,No,Legitimate
+105,Missing parts,71,High,VIP,0,1447.66,Net Banking,Yes,Legitimate
+106,Missing parts,155,Medium,VIP,10,169.83,UPI,No,Fraud
+107,Missing parts,297,Low,New,3,1266.01,UPI,Yes,Legitimate
+108,Color mismatch,70,High,New,7,341.07,UPI,Yes,Legitimate
+109,Defective after one use,48,Medium,Frequent,5,867.07,Debit Card,No,Legitimate
+110,Product not as described,109,Low,VIP,9,1369.44,Net Banking,Yes,Legitimate
+111,Missing parts,150,Medium,Frequent,10,28.7,Net Banking,No,Legitimate
+112,Wrong product received,246,Medium,Frequent,10,1924.44,UPI,No,Fraud
+113,Changed my mind,216,Medium,New,3,768.91,UPI,No,Fraud
+114,Item arrived damaged,222,Medium,New,9,1731.48,Credit Card,No,Fraud
+115,Changed my mind,200,Low,Returning,9,508.75,Debit Card,Yes,Legitimate
+116,Size does not fit,245,Low,Frequent,2,189.37,UPI,No,Fraud
+117,Product not as described,122,Low,Frequent,8,1008.57,UPI,Yes,Fraud
+118,Missing parts,171,High,Frequent,1,941.98,Credit Card,Yes,Legitimate
+119,Color mismatch,207,Low,VIP,0,536.27,Credit Card,No,Fraud
+120,Size does not fit,215,High,Frequent,1,1352.92,Net Banking,Yes,Fraud
+121,Package was empty,133,High,New,10,1649.47,UPI,No,Legitimate
+122,Product not as described,43,Low,Frequent,7,241.08,Debit Card,Yes,Fraud
+123,Missing parts,209,High,VIP,9,1487.12,Debit Card,No,Legitimate
+124,Missing parts,228,Medium,New,5,442.37,Net Banking,Yes,Fraud
+125,Wrong product received,208,High,Frequent,0,802.3,Debit Card,Yes,Fraud
+126,Wrong product received,128,High,New,0,1575.72,Debit Card,Yes,Legitimate
+127,Wrong product received,126,High,Returning,3,663.83,Debit Card,Yes,Fraud
+128,Product not as described,86,High,Frequent,2,228.75,Credit Card,Yes,Legitimate
+129,Defective after one use,141,High,Frequent,0,356.75,Credit Card,Yes,Fraud
+130,Fake product received,78,High,New,7,902.07,UPI,Yes,Fraud
+131,Fake product received,133,High,New,10,1047.69,Net Banking,Yes,Legitimate
+132,Missing parts,225,Medium,New,7,1427.68,Net Banking,Yes,Legitimate
+133,Defective after one use,95,Low,Returning,4,1252.39,Cash on Delivery,No,Fraud
+134,Package was empty,291,Medium,VIP,8,1214.8,Credit Card,Yes,Legitimate
+135,Color mismatch,251,Low,VIP,5,1656.56,Net Banking,No,Legitimate
+136,Defective after one use,238,Medium,Frequent,5,1907.65,Net Banking,Yes,Legitimate
+137,Wrong product received,67,Medium,New,5,1625.42,Cash on Delivery,Yes,Fraud
+138,Wrong product received,230,Medium,VIP,0,1937.11,Cash on Delivery,No,Fraud
+139,Wrong product received,279,Low,Returning,10,969.56,Credit Card,No,Fraud
+140,Wrong product received,162,High,Returning,6,1691.86,Cash on Delivery,Yes,Fraud
+141,Item arrived damaged,112,Medium,Frequent,5,708.54,Debit Card,Yes,Fraud
+142,Wrong product received,92,High,New,1,1494.76,Debit Card,No,Fraud
+143,Missing parts,194,Low,Frequent,4,1445.98,Cash on Delivery,Yes,Legitimate
+144,Product not as described,100,High,New,10,172.35,Net Banking,No,Fraud
+145,Package was empty,246,Medium,Frequent,3,1512.34,Credit Card,No,Fraud
+146,Wrong product received,165,High,VIP,8,1337.59,Credit Card,Yes,Fraud
+147,Package was empty,48,Low,Returning,4,1891.19,Debit Card,No,Fraud
+148,Defective after one use,81,Low,VIP,6,359.63,Net Banking,Yes,Fraud
+149,Wrong product received,223,High,New,6,47.3,Credit Card,No,Fraud
+150,Package was empty,227,High,VIP,4,239.2,Credit Card,No,Legitimate
+151,Package was empty,255,High,Frequent,1,879.06,Credit Card,Yes,Fraud
+152,Package was empty,225,High,New,6,1742.34,UPI,Yes,Fraud
+153,Product not as described,59,High,New,8,1024.8,UPI,No,Legitimate
+154,Changed my mind,72,Low,Frequent,3,355.26,Debit Card,Yes,Legitimate
+155,Missing parts,257,High,VIP,10,1849.07,Cash on Delivery,No,Fraud
+156,Product not as described,245,Low,VIP,7,1266.46,UPI,Yes,Fraud
+157,Fake product received,57,Medium,VIP,7,84.84,UPI,No,Legitimate
+158,Wrong product received,279,Medium,VIP,9,1113.09,Credit Card,No,Legitimate
+159,Defective after one use,263,High,Returning,0,906.54,UPI,Yes,Legitimate
+160,Item arrived damaged,146,High,VIP,7,1052.9,Cash on Delivery,Yes,Fraud
+161,Defective after one use,164,Medium,VIP,5,1361.01,Credit Card,No,Legitimate
+162,Defective after one use,68,High,VIP,4,511.47,Cash on Delivery,Yes,Fraud
+163,Wrong product received,92,Medium,Frequent,10,1399.98,Net Banking,Yes,Legitimate
+164,Size does not fit,212,High,Frequent,2,1343.53,Cash on Delivery,Yes,Fraud
+165,Fake product received,205,Low,Frequent,4,368.72,Debit Card,No,Fraud
+166,Changed my mind,135,Low,Returning,1,598.63,Credit Card,Yes,Fraud
+167,Package was empty,87,High,VIP,2,332.87,Cash on Delivery,Yes,Fraud
+168,Item arrived damaged,230,Medium,Returning,7,1225.08,Net Banking,Yes,Legitimate
+169,Size does not fit,260,Low,Frequent,10,1894.79,Net Banking,No,Fraud
+170,Color mismatch,277,High,VIP,2,1635.61,Cash on Delivery,Yes,Fraud
+171,Item arrived damaged,266,Medium,New,8,1703.82,UPI,Yes,Legitimate
+172,Size does not fit,250,High,Returning,6,192.51,Debit Card,No,Fraud
+173,Item arrived damaged,232,Low,VIP,8,754.18,Net Banking,Yes,Fraud
+174,Changed my mind,34,Medium,New,10,677.23,Debit Card,Yes,Legitimate
+175,Size does not fit,261,High,Returning,7,902.72,Credit Card,Yes,Legitimate
+176,Size does not fit,130,Low,VIP,1,1554.58,Debit Card,No,Legitimate
+177,Item arrived damaged,142,Medium,VIP,1,230.61,Net Banking,Yes,Legitimate
+178,Product not as described,169,Medium,New,9,712.1,Cash on Delivery,No,Legitimate
+179,Wrong product received,288,Medium,New,8,1092.72,Cash on Delivery,Yes,Fraud
+180,Missing parts,42,High,VIP,5,514.76,Credit Card,No,Legitimate
+181,Defective after one use,143,High,New,9,1473.02,UPI,Yes,Legitimate
+182,Defective after one use,299,Medium,Returning,10,934.6,Net Banking,Yes,Legitimate
+183,Wrong product received,254,Low,Frequent,3,97.17,Debit Card,Yes,Fraud
+184,Size does not fit,283,Medium,VIP,4,82.88,Debit Card,No,Fraud
+185,Item arrived damaged,189,Medium,New,5,879.53,Net Banking,No,Fraud
+186,Defective after one use,115,Medium,VIP,5,1849.38,Cash on Delivery,No,Legitimate
+187,Color mismatch,60,Medium,Returning,8,594.6,Credit Card,Yes,Fraud
+188,Size does not fit,176,Medium,VIP,2,1382.63,UPI,No,Legitimate
+189,Defective after one use,242,Medium,New,1,1345.66,Net Banking,No,Legitimate
+190,Item arrived damaged,93,High,VIP,0,261.2,Debit Card,No,Fraud
+191,Color mismatch,36,High,Returning,10,905.35,UPI,No,Fraud
+192,Wrong product received,90,High,Frequent,6,635.63,UPI,Yes,Legitimate
+193,Item arrived damaged,115,Medium,VIP,8,244.34,UPI,No,Legitimate
+194,Package was empty,166,High,VIP,3,254.05,Credit Card,No,Legitimate
+195,Missing parts,64,High,Frequent,10,701.38,Credit Card,No,Fraud
+196,Product not as described,109,Medium,Returning,1,1970.41,Debit Card,Yes,Fraud
+197,Item arrived damaged,204,High,Frequent,7,1609.29,Cash on Delivery,Yes,Legitimate
+198,Wrong product received,178,Medium,VIP,8,827.48,Net Banking,Yes,Legitimate
+199,Defective after one use,57,Medium,VIP,10,1039.55,Debit Card,Yes,Legitimate
+200,Color mismatch,277,Low,New,8,314.5,Debit Card,Yes,Fraud
+201,Changed my mind,197,High,Frequent,1,508.7,Cash on Delivery,No,Legitimate
+202,Size does not fit,293,Low,Returning,9,1883.8,Debit Card,Yes,Fraud
+203,Package was empty,41,Low,New,0,1897.61,Cash on Delivery,No,Legitimate
+204,Package was empty,233,High,New,7,1779.1,Cash on Delivery,No,Fraud
+205,Missing parts,145,High,VIP,4,912.55,Credit Card,Yes,Fraud
+206,Color mismatch,267,Medium,Returning,5,1217.25,UPI,No,Fraud
+207,Color mismatch,86,Medium,New,5,491.06,Credit Card,No,Fraud
+208,Changed my mind,92,Low,New,4,1891.32,Cash on Delivery,No,Legitimate
+209,Product not as described,187,High,Frequent,3,1528.61,Net Banking,No,Fraud
+210,Size does not fit,274,Low,New,6,1015.83,Debit Card,Yes,Fraud
+211,Item arrived damaged,45,Medium,VIP,9,1765.86,Net Banking,No,Legitimate
+212,Wrong product received,240,Low,Frequent,5,1530.07,UPI,Yes,Fraud
+213,Item arrived damaged,119,Medium,Frequent,1,778.83,Net Banking,No,Legitimate
+214,Product not as described,69,Medium,Frequent,5,1120.09,UPI,Yes,Legitimate
+215,Package was empty,280,Medium,New,0,87.44,UPI,No,Fraud
+216,Product not as described,283,Low,Frequent,9,643.87,Net Banking,No,Fraud
+217,Fake product received,280,High,VIP,9,606.58,Credit Card,No,Fraud
+218,Wrong product received,233,High,Frequent,10,63.03,Net Banking,No,Legitimate
+219,Item arrived damaged,265,Low,VIP,2,1645.11,Debit Card,Yes,Legitimate
+220,Changed my mind,29,Medium,Frequent,6,311.35,Debit Card,No,Fraud
+221,Item arrived damaged,90,High,Returning,8,656.85,Net Banking,No,Fraud
+222,Product not as described,255,High,Frequent,8,715.03,UPI,No,Legitimate
+223,Changed my mind,162,High,Frequent,3,1883.56,UPI,No,Legitimate
+224,Missing parts,182,Medium,Frequent,8,1868.06,UPI,No,Legitimate
+225,Package was empty,298,Medium,VIP,5,1909.67,Debit Card,No,Legitimate
+226,Size does not fit,60,Medium,VIP,10,520.32,Net Banking,Yes,Legitimate
+227,Fake product received,158,High,Frequent,2,227.36,Cash on Delivery,Yes,Legitimate
+228,Item arrived damaged,291,Low,Returning,0,209.39,UPI,No,Legitimate
+229,Product not as described,22,High,Returning,6,1309.26,Net Banking,No,Legitimate
+230,Size does not fit,184,Medium,New,1,1308.07,Debit Card,Yes,Legitimate
+231,Color mismatch,110,Low,VIP,7,380.76,UPI,Yes,Legitimate
+232,Size does not fit,74,Medium,Frequent,7,1978.31,Cash on Delivery,No,Legitimate
+233,Fake product received,259,Medium,Returning,1,668.06,Net Banking,No,Legitimate
+234,Item arrived damaged,192,Medium,Returning,2,1225.8,Net Banking,No,Fraud
+235,Wrong product received,225,High,New,2,1963.55,Net Banking,No,Legitimate
+236,Item arrived damaged,153,Medium,Returning,7,1509.98,UPI,No,Legitimate
+237,Size does not fit,204,High,Returning,0,1338.89,Net Banking,No,Legitimate
+238,Color mismatch,277,High,Frequent,1,1281.04,UPI,No,Legitimate
+239,Changed my mind,88,Medium,Returning,7,1497.99,Cash on Delivery,No,Fraud
+240,Fake product received,261,High,Returning,3,1363.88,Cash on Delivery,Yes,Fraud
+241,Fake product received,205,Low,New,0,1659.26,Cash on Delivery,Yes,Legitimate
+242,Product not as described,187,High,VIP,1,1363.79,Cash on Delivery,No,Legitimate
+243,Fake product received,248,Low,VIP,2,1031.36,Net Banking,Yes,Fraud
+244,Size does not fit,31,Medium,Frequent,0,1494.15,Cash on Delivery,Yes,Legitimate
+245,Color mismatch,196,High,New,8,1988.31,Credit Card,No,Legitimate
+246,Size does not fit,229,Low,Returning,10,1956.88,Net Banking,No,Fraud
+247,Missing parts,213,Medium,New,10,1928.65,Cash on Delivery,Yes,Fraud
+248,Wrong product received,111,High,VIP,8,263.42,Debit Card,Yes,Legitimate
+249,Size does not fit,257,High,VIP,8,764.76,Debit Card,Yes,Fraud
+250,Defective after one use,99,Medium,Returning,1,74.11,Net Banking,Yes,Legitimate
+251,Changed my mind,54,Low,New,7,1199.59,Credit Card,Yes,Legitimate
+252,Color mismatch,244,Low,Returning,0,288.87,UPI,Yes,Fraud
+253,Package was empty,184,Low,Frequent,2,1971.53,Cash on Delivery,Yes,Fraud
+254,Size does not fit,160,Low,Returning,10,1360.71,Cash on Delivery,No,Legitimate
+255,Defective after one use,215,High,Frequent,6,822.44,UPI,No,Legitimate
+256,Fake product received,262,Low,Returning,4,1716.51,Debit Card,No,Legitimate
+257,Fake product received,231,Medium,Returning,6,493.29,Debit Card,No,Legitimate
+258,Missing parts,209,Low,Returning,0,544.24,Cash on Delivery,Yes,Legitimate
+259,Changed my mind,131,Medium,Returning,5,613.34,Credit Card,Yes,Legitimate
+260,Wrong product received,265,Low,Returning,6,1831.1,Cash on Delivery,No,Fraud
+261,Color mismatch,258,High,Frequent,4,530.51,Cash on Delivery,No,Fraud
+262,Wrong product received,260,Medium,Returning,5,632.71,Credit Card,Yes,Legitimate
+263,Item arrived damaged,153,High,VIP,4,313.3,UPI,Yes,Fraud
+264,Package was empty,145,Medium,Frequent,4,1529.09,Net Banking,No,Fraud
+265,Product not as described,200,Low,Returning,8,981.75,Cash on Delivery,Yes,Legitimate
+266,Wrong product received,44,Low,VIP,2,1686.66,Debit Card,Yes,Legitimate
+267,Item arrived damaged,131,High,VIP,5,130.3,Cash on Delivery,No,Fraud
+268,Item arrived damaged,23,High,VIP,0,43.29,UPI,No,Legitimate
+269,Fake product received,240,Low,New,1,1053.53,Debit Card,Yes,Fraud
+270,Defective after one use,156,Medium,New,5,1919.0,Net Banking,Yes,Legitimate
+271,Size does not fit,61,High,New,1,816.5,Net Banking,No,Legitimate
+272,Item arrived damaged,107,Low,VIP,6,1293.37,UPI,Yes,Legitimate
+273,Changed my mind,128,High,VIP,4,102.66,Credit Card,No,Legitimate
+274,Product not as described,181,Low,Returning,9,296.94,Net Banking,Yes,Fraud
+275,Product not as described,143,High,VIP,10,1794.09,UPI,No,Legitimate
+276,Wrong product received,276,High,Frequent,0,204.39,Debit Card,Yes,Fraud
+277,Package was empty,223,Medium,New,10,553.92,Net Banking,No,Legitimate
+278,Defective after one use,212,Medium,Returning,10,1175.89,Net Banking,Yes,Fraud
+279,Changed my mind,57,Low,Frequent,2,766.2,Debit Card,No,Fraud
+280,Defective after one use,74,Low,New,4,895.02,UPI,Yes,Legitimate
+281,Wrong product received,115,Medium,VIP,8,1113.93,Net Banking,Yes,Legitimate
+282,Wrong product received,201,High,New,9,1200.11,UPI,No,Legitimate
+283,Size does not fit,231,Medium,New,8,1811.36,Debit Card,Yes,Fraud
+284,Product not as described,91,Medium,Frequent,4,991.32,Credit Card,Yes,Fraud
+285,Size does not fit,235,Medium,VIP,1,728.64,Debit Card,No,Legitimate
+286,Missing parts,74,Low,Frequent,0,1898.16,UPI,No,Fraud
+287,Missing parts,191,Medium,Returning,4,648.12,Debit Card,No,Fraud
+288,Product not as described,223,Medium,Frequent,10,987.1,Cash on Delivery,Yes,Fraud
+289,Color mismatch,163,Medium,Frequent,1,1864.81,Debit Card,Yes,Legitimate
+290,Missing parts,127,Medium,Frequent,1,1639.74,Net Banking,No,Legitimate
+291,Size does not fit,143,Medium,Returning,6,1580.26,Credit Card,No,Fraud
+292,Package was empty,225,High,VIP,8,83.16,UPI,Yes,Legitimate
+293,Changed my mind,201,Low,New,9,1967.38,Net Banking,No,Fraud
+294,Wrong product received,25,Low,Frequent,3,1026.25,Cash on Delivery,Yes,Fraud
+295,Defective after one use,220,Medium,Returning,5,1995.43,Net Banking,Yes,Fraud
+296,Color mismatch,63,Low,Returning,5,630.66,Net Banking,Yes,Fraud
+297,Defective after one use,263,Low,VIP,7,644.63,UPI,Yes,Legitimate
+298,Item arrived damaged,195,High,New,10,1602.1,Debit Card,Yes,Legitimate
+299,Defective after one use,238,Medium,Returning,6,1263.22,Debit Card,No,Fraud
+300,Item arrived damaged,121,Medium,VIP,6,18.86,Debit Card,Yes,Fraud
+301,Wrong product received,72,High,Returning,5,658.71,Net Banking,Yes,Fraud
+302,Missing parts,290,High,Frequent,9,783.39,Net Banking,Yes,Fraud
+303,Defective after one use,254,High,Returning,10,1414.92,UPI,Yes,Legitimate
+304,Defective after one use,80,Low,Frequent,1,374.26,Debit Card,No,Fraud
+305,Package was empty,90,High,VIP,6,379.65,Cash on Delivery,Yes,Legitimate
+306,Missing parts,167,Low,Returning,5,1685.55,Cash on Delivery,Yes,Fraud
+307,Item arrived damaged,268,Low,Returning,6,1928.02,Cash on Delivery,No,Fraud
+308,Missing parts,232,High,VIP,7,342.83,Cash on Delivery,Yes,Legitimate
+309,Size does not fit,36,Medium,Returning,8,584.45,Net Banking,No,Legitimate
+310,Package was empty,78,Medium,Frequent,8,1647.0,Credit Card,No,Legitimate
+311,Color mismatch,72,High,Returning,4,1750.87,Credit Card,No,Fraud
+312,Defective after one use,64,Medium,New,3,427.66,Cash on Delivery,No,Fraud
+313,Product not as described,91,Low,Returning,0,1144.45,Cash on Delivery,No,Legitimate
+314,Defective after one use,169,Medium,Frequent,8,1971.12,Credit Card,Yes,Fraud
+315,Item arrived damaged,161,High,Returning,2,506.86,UPI,Yes,Fraud
+316,Missing parts,92,High,Frequent,10,834.31,Net Banking,Yes,Legitimate
+317,Color mismatch,283,High,Frequent,5,914.84,Net Banking,No,Legitimate
+318,Wrong product received,254,High,Frequent,1,1593.4,Net Banking,Yes,Fraud
+319,Changed my mind,273,Medium,Frequent,4,682.13,Cash on Delivery,Yes,Fraud
+320,Defective after one use,44,Low,New,10,1569.94,Net Banking,Yes,Legitimate
+321,Product not as described,245,Medium,New,6,412.61,Debit Card,No,Legitimate
+322,Size does not fit,67,High,Frequent,4,174.02,Debit Card,Yes,Fraud
+323,Size does not fit,139,Medium,New,1,12.16,Net Banking,Yes,Legitimate
+324,Package was empty,135,High,VIP,0,26.04,UPI,Yes,Fraud
+325,Product not as described,264,Low,Returning,6,187.77,Credit Card,Yes,Fraud
+326,Defective after one use,173,Low,VIP,2,1286.74,Debit Card,Yes,Legitimate
+327,Package was empty,104,Medium,Frequent,3,1259.88,Debit Card,No,Fraud
+328,Changed my mind,64,Low,Returning,1,1183.25,Net Banking,No,Fraud
+329,Defective after one use,91,Low,Frequent,10,177.65,Cash on Delivery,No,Legitimate
+330,Size does not fit,125,High,Returning,6,598.13,Credit Card,Yes,Fraud
+331,Color mismatch,77,Low,VIP,10,1191.92,Cash on Delivery,Yes,Fraud
+332,Defective after one use,87,Medium,VIP,5,1097.25,Debit Card,No,Legitimate
+333,Item arrived damaged,54,Low,Frequent,3,89.26,Credit Card,No,Fraud
+334,Fake product received,232,Medium,VIP,1,1284.67,Cash on Delivery,Yes,Fraud
+335,Wrong product received,178,Low,Returning,2,1077.42,Net Banking,Yes,Fraud
+336,Color mismatch,142,Low,Returning,1,1850.01,Credit Card,No,Legitimate
+337,Size does not fit,109,Low,New,2,1405.98,Debit Card,No,Fraud
+338,Fake product received,284,High,Frequent,2,750.02,UPI,Yes,Legitimate
+339,Defective after one use,239,Medium,New,4,1427.52,Cash on Delivery,Yes,Fraud
+340,Missing parts,281,Medium,New,7,1720.13,Debit Card,No,Legitimate
+341,Size does not fit,72,High,New,3,1484.15,Credit Card,Yes,Legitimate
+342,Changed my mind,43,Medium,Frequent,6,1841.25,Debit Card,Yes,Fraud
+343,Changed my mind,184,Low,VIP,5,549.8,Credit Card,No,Legitimate
+344,Fake product received,46,Low,Returning,8,1963.01,Net Banking,Yes,Fraud
+345,Size does not fit,179,Medium,New,8,918.92,UPI,Yes,Fraud
+346,Package was empty,175,High,Returning,7,742.86,Net Banking,Yes,Legitimate
+347,Product not as described,23,Medium,New,3,1087.67,Credit Card,No,Legitimate
+348,Color mismatch,177,Low,Returning,8,1966.4,Net Banking,No,Legitimate
+349,Product not as described,163,Low,New,3,1795.6,Cash on Delivery,No,Fraud
+350,Missing parts,63,High,New,8,275.69,Net Banking,Yes,Legitimate
+351,Color mismatch,86,Low,Frequent,4,1703.32,Net Banking,No,Fraud
+352,Missing parts,159,Low,New,3,280.86,Cash on Delivery,Yes,Legitimate
+353,Wrong product received,104,Medium,VIP,5,818.96,Cash on Delivery,No,Legitimate
+354,Missing parts,177,Medium,Frequent,1,189.94,UPI,Yes,Legitimate
+355,Defective after one use,95,Low,Returning,5,798.53,Credit Card,No,Fraud
+356,Product not as described,35,Medium,VIP,8,1498.68,Debit Card,Yes,Fraud
+357,Wrong product received,91,Low,New,0,1662.44,Debit Card,Yes,Legitimate
+358,Color mismatch,210,High,New,9,1176.38,Credit Card,Yes,Legitimate
+359,Changed my mind,247,Low,New,5,253.83,Net Banking,Yes,Legitimate
+360,Package was empty,241,High,VIP,7,68.67,Net Banking,Yes,Fraud
+361,Changed my mind,115,Medium,Frequent,7,1768.01,Credit Card,Yes,Fraud
+362,Missing parts,230,High,VIP,0,184.57,Net Banking,Yes,Fraud
+363,Changed my mind,289,Low,New,6,1566.01,UPI,No,Fraud
+364,Defective after one use,277,Medium,VIP,4,367.83,UPI,Yes,Legitimate
+365,Size does not fit,49,Medium,Frequent,9,1999.22,Debit Card,Yes,Legitimate
+366,Changed my mind,156,High,New,3,1155.63,Net Banking,No,Legitimate
+367,Product not as described,141,High,Frequent,5,1828.82,Credit Card,No,Legitimate
+368,Package was empty,116,Medium,Frequent,2,985.97,Credit Card,Yes,Legitimate
+369,Package was empty,132,Low,VIP,0,670.15,Cash on Delivery,Yes,Legitimate
+370,Defective after one use,110,Medium,New,0,303.95,Debit Card,Yes,Fraud
+371,Wrong product received,211,High,VIP,9,211.05,UPI,No,Legitimate
+372,Product not as described,243,High,VIP,10,641.39,Cash on Delivery,No,Legitimate
+373,Package was empty,109,Medium,Frequent,4,263.42,Credit Card,No,Legitimate
+374,Product not as described,182,High,Returning,10,1135.44,Net Banking,Yes,Fraud
+375,Wrong product received,141,Medium,Frequent,2,1276.01,Credit Card,No,Fraud
+376,Item arrived damaged,155,Low,Returning,1,707.46,Credit Card,Yes,Legitimate
+377,Color mismatch,244,High,VIP,2,1770.26,Net Banking,No,Fraud
+378,Fake product received,212,Low,VIP,9,1305.43,Debit Card,Yes,Fraud
+379,Wrong product received,37,Medium,New,5,529.64,Credit Card,Yes,Fraud
+380,Product not as described,212,Low,New,8,1884.25,Credit Card,No,Fraud
+381,Item arrived damaged,240,High,Returning,9,1780.61,Debit Card,Yes,Legitimate
+382,Defective after one use,125,Low,VIP,8,1446.86,Cash on Delivery,No,Fraud
+383,Size does not fit,141,Low,New,6,1147.82,Net Banking,Yes,Legitimate
+384,Defective after one use,21,Medium,New,4,1649.56,Cash on Delivery,No,Legitimate
+385,Wrong product received,33,Low,Returning,10,590.7,Credit Card,No,Legitimate
+386,Size does not fit,223,Medium,VIP,10,537.36,Cash on Delivery,No,Legitimate
+387,Defective after one use,215,Medium,Returning,7,98.79,Net Banking,No,Fraud
+388,Changed my mind,157,High,New,2,1506.95,Credit Card,Yes,Fraud
+389,Fake product received,231,High,Returning,8,131.36,Net Banking,No,Fraud
+390,Package was empty,140,Medium,Frequent,1,795.66,Credit Card,Yes,Legitimate
+391,Missing parts,108,Low,Returning,3,261.11,Net Banking,Yes,Fraud
+392,Changed my mind,95,High,Frequent,5,1822.5,Credit Card,Yes,Fraud
+393,Fake product received,223,High,Frequent,4,1044.18,Credit Card,No,Legitimate
+394,Color mismatch,96,Low,New,1,1129.74,Credit Card,No,Fraud
+395,Color mismatch,155,Medium,VIP,9,1221.83,Credit Card,Yes,Fraud
+396,Color mismatch,93,High,VIP,0,797.63,UPI,Yes,Legitimate
+397,Missing parts,157,Medium,New,5,1636.6,UPI,No,Fraud
+398,Missing parts,70,Low,Returning,4,1948.7,Net Banking,No,Fraud
+399,Color mismatch,65,Low,VIP,3,1827.73,Net Banking,No,Fraud
+400,Item arrived damaged,283,Low,New,4,1422.04,Net Banking,Yes,Legitimate
+401,Product not as described,118,Low,New,3,75.81,Credit Card,No,Legitimate
+402,Size does not fit,208,Medium,VIP,10,1846.92,Credit Card,Yes,Fraud
+403,Missing parts,248,Low,VIP,9,1107.15,UPI,Yes,Fraud
+404,Wrong product received,165,Low,VIP,0,334.19,Cash on Delivery,Yes,Legitimate
+405,Changed my mind,125,Medium,VIP,8,49.9,Credit Card,No,Legitimate
+406,Product not as described,24,Low,Frequent,9,1612.12,UPI,No,Fraud
+407,Color mismatch,198,Medium,Frequent,3,938.73,Cash on Delivery,No,Legitimate
+408,Item arrived damaged,281,High,Frequent,8,1298.21,Cash on Delivery,No,Fraud
+409,Wrong product received,266,Low,Frequent,4,1284.78,UPI,No,Fraud
+410,Changed my mind,96,High,Returning,0,1612.81,Cash on Delivery,No,Fraud
+411,Product not as described,33,High,VIP,4,526.26,Net Banking,No,Fraud
+412,Item arrived damaged,117,Medium,Returning,10,1073.92,Net Banking,No,Fraud
+413,Product not as described,112,Medium,New,7,264.61,UPI,Yes,Fraud
+414,Wrong product received,133,Medium,Returning,4,846.74,UPI,No,Fraud
+415,Package was empty,170,Medium,New,7,116.82,Cash on Delivery,Yes,Fraud
+416,Changed my mind,276,Low,VIP,8,603.73,Credit Card,Yes,Legitimate
+417,Changed my mind,195,Medium,VIP,2,639.6,Debit Card,Yes,Fraud
+418,Defective after one use,110,Medium,New,0,909.59,Debit Card,Yes,Legitimate
+419,Missing parts,65,Low,VIP,10,864.53,Net Banking,No,Fraud
+420,Item arrived damaged,39,High,Returning,5,1900.64,UPI,Yes,Legitimate
+421,Item arrived damaged,147,Low,Frequent,4,266.57,Net Banking,No,Legitimate
+422,Wrong product received,43,Medium,Frequent,7,1458.39,Cash on Delivery,No,Fraud
+423,Product not as described,195,Medium,Frequent,3,338.12,Net Banking,Yes,Legitimate
+424,Changed my mind,87,Low,New,9,1014.22,Credit Card,No,Legitimate
+425,Color mismatch,150,High,New,9,1989.41,Credit Card,Yes,Legitimate
+426,Wrong product received,233,Medium,VIP,1,1099.09,Net Banking,Yes,Legitimate
+427,Item arrived damaged,174,Medium,New,10,1045.42,Cash on Delivery,Yes,Fraud
+428,Wrong product received,281,High,New,4,236.88,Credit Card,No,Legitimate
+429,Package was empty,122,Medium,Returning,5,1409.84,UPI,Yes,Legitimate
+430,Fake product received,274,Low,VIP,5,476.67,Credit Card,Yes,Legitimate
+431,Package was empty,272,Low,New,8,159.35,Credit Card,No,Legitimate
+432,Missing parts,171,Medium,VIP,0,208.62,Debit Card,Yes,Fraud
+433,Defective after one use,180,Medium,New,1,1703.98,Credit Card,Yes,Legitimate
+434,Product not as described,188,Medium,VIP,9,543.94,Credit Card,No,Fraud
+435,Product not as described,78,Medium,VIP,7,550.95,Net Banking,No,Fraud
+436,Product not as described,77,Low,New,2,216.39,Cash on Delivery,No,Fraud
+437,Product not as described,214,Medium,New,10,1761.1,Debit Card,No,Fraud
+438,Wrong product received,230,Medium,New,1,530.61,UPI,Yes,Legitimate
+439,Defective after one use,285,High,New,6,1326.81,Debit Card,No,Fraud
+440,Color mismatch,96,High,New,0,1290.36,Debit Card,No,Fraud
+441,Product not as described,58,Medium,Frequent,3,668.48,UPI,Yes,Legitimate
+442,Fake product received,213,Medium,Returning,1,923.6,Cash on Delivery,No,Legitimate
+443,Missing parts,248,Medium,New,7,1493.03,Credit Card,Yes,Fraud
+444,Color mismatch,38,High,New,1,1585.65,Cash on Delivery,No,Legitimate
+445,Missing parts,194,Medium,New,3,1690.19,UPI,No,Fraud
+446,Missing parts,78,Low,Returning,0,689.3,UPI,No,Legitimate
+447,Item arrived damaged,104,Medium,Returning,6,222.85,Cash on Delivery,Yes,Legitimate
+448,Wrong product received,221,Low,VIP,3,1436.41,Credit Card,No,Legitimate
+449,Package was empty,83,Medium,VIP,10,1182.74,Cash on Delivery,Yes,Fraud
+450,Item arrived damaged,291,High,New,8,1871.26,Cash on Delivery,No,Legitimate
+451,Package was empty,108,High,Returning,1,780.94,Cash on Delivery,No,Fraud
+452,Color mismatch,147,Medium,VIP,5,1941.28,Net Banking,Yes,Legitimate
+453,Color mismatch,282,Medium,Frequent,8,1268.84,Debit Card,Yes,Fraud
+454,Defective after one use,87,High,Returning,8,1089.56,UPI,Yes,Fraud
+455,Fake product received,265,High,VIP,10,1498.26,Cash on Delivery,No,Fraud
+456,Item arrived damaged,287,Low,New,6,299.2,Credit Card,Yes,Fraud
+457,Product not as described,166,High,Frequent,2,1680.37,UPI,Yes,Legitimate
+458,Defective after one use,251,Low,Returning,10,1126.93,Debit Card,No,Legitimate
+459,Color mismatch,218,Medium,Frequent,8,117.07,UPI,Yes,Fraud
+460,Changed my mind,208,High,Returning,3,595.41,Debit Card,Yes,Legitimate
+461,Product not as described,283,Low,VIP,0,862.73,Cash on Delivery,No,Legitimate
+462,Product not as described,150,Low,Frequent,7,1422.28,Debit Card,Yes,Legitimate
+463,Defective after one use,46,High,Frequent,7,1581.92,Cash on Delivery,No,Legitimate
+464,Defective after one use,289,Low,Returning,8,145.67,Cash on Delivery,Yes,Fraud
+465,Fake product received,294,Medium,New,5,450.18,Debit Card,No,Fraud
+466,Defective after one use,170,Low,VIP,8,1649.14,Credit Card,Yes,Fraud
+467,Missing parts,143,High,Returning,0,1368.28,UPI,No,Legitimate
+468,Color mismatch,151,High,Frequent,0,1823.56,UPI,No,Fraud
+469,Item arrived damaged,171,High,Returning,5,1032.65,Credit Card,Yes,Legitimate
+470,Wrong product received,127,High,Returning,10,854.18,Credit Card,Yes,Fraud
+471,Wrong product received,98,Low,VIP,5,85.39,Credit Card,Yes,Legitimate
+472,Size does not fit,56,High,Returning,4,821.19,Net Banking,No,Fraud
+473,Defective after one use,28,Medium,New,8,21.74,Cash on Delivery,Yes,Legitimate
+474,Wrong product received,203,High,New,4,1575.91,UPI,Yes,Fraud
+475,Missing parts,215,Medium,New,7,321.08,Debit Card,Yes,Fraud
+476,Fake product received,171,High,Returning,4,1357.81,UPI,Yes,Legitimate
+477,Wrong product received,41,Low,VIP,8,1099.58,Credit Card,No,Legitimate
+478,Defective after one use,128,Medium,Returning,2,376.15,Cash on Delivery,No,Legitimate
+479,Wrong product received,112,High,New,8,927.92,Cash on Delivery,Yes,Fraud
+480,Wrong product received,148,Low,Returning,9,979.51,UPI,No,Legitimate
+481,Changed my mind,71,Medium,New,3,642.39,Net Banking,No,Fraud
+482,Package was empty,98,High,Frequent,5,1917.73,Debit Card,Yes,Fraud
+483,Changed my mind,133,High,VIP,4,1681.82,Debit Card,No,Fraud
+484,Missing parts,248,Medium,Frequent,7,1107.83,Debit Card,Yes,Fraud
+485,Product not as described,295,Low,Frequent,10,162.16,Credit Card,Yes,Legitimate
+486,Package was empty,227,High,Returning,0,1107.67,Cash on Delivery,No,Legitimate
+487,Defective after one use,220,Low,Frequent,2,934.76,Cash on Delivery,Yes,Fraud
+488,Defective after one use,277,Low,Returning,9,1371.48,Cash on Delivery,Yes,Fraud
+489,Product not as described,111,High,Returning,7,1878.96,Credit Card,Yes,Fraud
+490,Changed my mind,52,Medium,Frequent,3,95.19,Debit Card,No,Fraud
+491,Missing parts,252,Low,New,10,654.9,Cash on Delivery,No,Fraud
+492,Package was empty,298,High,Returning,6,1310.81,UPI,Yes,Fraud
+493,Color mismatch,134,High,VIP,5,1636.3,UPI,No,Fraud
+494,Package was empty,23,High,Returning,7,339.56,Credit Card,No,Legitimate
+495,Product not as described,115,Low,Frequent,9,1437.43,Credit Card,Yes,Fraud
+496,Defective after one use,78,Medium,VIP,7,429.3,Debit Card,No,Legitimate
+497,Changed my mind,42,Low,Returning,2,1262.79,Credit Card,Yes,Legitimate
+498,Product not as described,152,Low,VIP,9,1938.79,Credit Card,No,Legitimate
+499,Changed my mind,249,High,VIP,7,349.43,Net Banking,Yes,Legitimate
+500,Package was empty,281,Medium,Returning,10,691.92,Net Banking,Yes,Legitimate
+501,Color mismatch,217,Low,New,0,412.67,Cash on Delivery,No,Legitimate
+502,Package was empty,69,Low,VIP,9,1203.63,Cash on Delivery,Yes,Legitimate
+503,Missing parts,86,High,New,10,1301.97,Cash on Delivery,No,Fraud
+504,Item arrived damaged,291,Medium,Returning,7,1581.22,Net Banking,No,Legitimate
+505,Color mismatch,88,Medium,VIP,3,1821.07,Credit Card,No,Fraud
+506,Size does not fit,116,Low,New,9,1049.86,Cash on Delivery,Yes,Fraud
+507,Changed my mind,181,Medium,Frequent,1,318.01,Cash on Delivery,No,Fraud
+508,Fake product received,236,High,Frequent,9,558.37,Net Banking,Yes,Fraud
+509,Fake product received,267,Low,Frequent,8,1114.27,UPI,No,Fraud
+510,Color mismatch,90,High,New,3,898.72,Debit Card,Yes,Legitimate
+511,Fake product received,225,Medium,New,2,784.32,Credit Card,Yes,Legitimate
+512,Missing parts,242,Low,New,4,451.32,Credit Card,Yes,Fraud
+513,Color mismatch,286,Medium,New,2,1284.18,Net Banking,Yes,Legitimate
+514,Fake product received,166,Low,New,9,1025.99,Debit Card,Yes,Legitimate
+515,Defective after one use,142,High,New,2,182.82,UPI,No,Fraud
+516,Color mismatch,227,High,Returning,8,40.58,Credit Card,Yes,Fraud
+517,Fake product received,198,Medium,Frequent,3,1216.66,Debit Card,No,Fraud
+518,Package was empty,22,Medium,Returning,6,1017.41,Cash on Delivery,Yes,Fraud
+519,Defective after one use,79,High,Frequent,8,1628.16,Cash on Delivery,No,Fraud
+520,Color mismatch,267,Low,Frequent,7,1366.37,Cash on Delivery,Yes,Fraud
+521,Wrong product received,152,Low,VIP,10,1579.43,Debit Card,Yes,Fraud
+522,Color mismatch,200,High,New,4,504.03,Credit Card,No,Fraud
+523,Wrong product received,111,Medium,Frequent,5,444.95,Cash on Delivery,No,Legitimate
+524,Changed my mind,275,High,Returning,3,1473.5,UPI,Yes,Legitimate
+525,Changed my mind,147,High,Frequent,2,1560.09,Credit Card,Yes,Fraud
+526,Package was empty,23,High,New,7,748.68,UPI,No,Fraud
+527,Missing parts,113,High,Frequent,6,451.96,Cash on Delivery,Yes,Legitimate
+528,Fake product received,236,Medium,New,8,701.11,Debit Card,No,Legitimate
+529,Fake product received,255,Medium,New,0,1351.47,Net Banking,Yes,Fraud
+530,Defective after one use,152,Low,Frequent,3,546.12,Cash on Delivery,No,Fraud
+531,Product not as described,275,Medium,Returning,6,1404.42,UPI,No,Fraud
+532,Size does not fit,250,Low,Returning,9,1375.16,Credit Card,No,Legitimate
+533,Fake product received,241,Medium,Returning,2,1602.07,Debit Card,No,Legitimate
+534,Product not as described,235,Medium,Returning,10,1038.84,UPI,No,Fraud
+535,Size does not fit,44,Medium,New,2,129.47,UPI,No,Legitimate
+536,Missing parts,191,Medium,Frequent,5,1125.1,UPI,No,Legitimate
+537,Color mismatch,82,Medium,Returning,9,1156.03,Cash on Delivery,Yes,Fraud
+538,Defective after one use,186,High,VIP,7,1780.37,Net Banking,No,Fraud
+539,Product not as described,105,High,Frequent,6,1266.23,Cash on Delivery,No,Legitimate
+540,Wrong product received,102,Medium,Returning,5,640.59,UPI,No,Fraud
+541,Size does not fit,247,Medium,VIP,6,342.96,Credit Card,Yes,Legitimate
+542,Size does not fit,60,Low,Returning,6,214.99,Credit Card,No,Legitimate
+543,Item arrived damaged,223,High,New,1,532.28,Debit Card,Yes,Fraud
+544,Size does not fit,137,Low,Frequent,7,1256.7,Debit Card,Yes,Legitimate
+545,Item arrived damaged,202,Medium,VIP,7,1950.21,Cash on Delivery,No,Fraud
+546,Product not as described,296,Low,VIP,10,1500.33,Cash on Delivery,No,Fraud
+547,Defective after one use,266,High,Returning,1,889.3,UPI,No,Fraud
+548,Product not as described,175,Low,New,8,1632.61,Debit Card,No,Fraud
+549,Missing parts,293,Low,VIP,7,606.22,Net Banking,No,Legitimate
+550,Item arrived damaged,300,Medium,Returning,6,1765.5,Net Banking,No,Legitimate
+551,Product not as described,219,Medium,Returning,4,167.63,Debit Card,No,Fraud
+552,Fake product received,157,Medium,Returning,1,372.99,UPI,Yes,Fraud
+553,Package was empty,251,Medium,VIP,3,648.08,Debit Card,Yes,Legitimate
+554,Product not as described,72,Medium,Frequent,2,1433.24,Credit Card,Yes,Legitimate
+555,Product not as described,27,Medium,Returning,5,846.28,Net Banking,No,Fraud
+556,Item arrived damaged,189,Low,Returning,0,540.34,Net Banking,Yes,Fraud
+557,Product not as described,118,Medium,VIP,0,252.7,Debit Card,No,Fraud
+558,Changed my mind,37,Low,VIP,1,1047.07,Debit Card,No,Fraud
+559,Size does not fit,185,Low,New,8,1046.64,UPI,No,Fraud
+560,Changed my mind,204,Low,Returning,1,479.57,Net Banking,No,Legitimate
+561,Product not as described,161,High,New,6,1580.4,Credit Card,Yes,Fraud
+562,Package was empty,99,Medium,New,3,323.82,Credit Card,No,Legitimate
+563,Item arrived damaged,202,High,Returning,8,1585.02,Debit Card,No,Legitimate
+564,Defective after one use,197,Medium,Returning,0,1381.61,UPI,Yes,Fraud
+565,Item arrived damaged,268,High,VIP,8,596.48,Net Banking,Yes,Legitimate
+566,Fake product received,198,Medium,VIP,4,1736.65,Cash on Delivery,Yes,Legitimate
+567,Fake product received,99,Medium,Frequent,4,1087.8,Net Banking,Yes,Fraud
+568,Product not as described,29,High,Frequent,9,485.19,Credit Card,No,Legitimate
+569,Fake product received,274,High,Returning,9,573.43,Net Banking,No,Legitimate
+570,Wrong product received,287,High,New,0,1672.03,Debit Card,Yes,Legitimate
+571,Changed my mind,74,Medium,Returning,1,73.32,Net Banking,No,Fraud
+572,Item arrived damaged,207,Low,New,0,1861.12,Debit Card,No,Legitimate
+573,Missing parts,51,Medium,VIP,5,1590.56,Credit Card,No,Legitimate
+574,Wrong product received,175,Low,Returning,8,203.27,Debit Card,No,Legitimate
+575,Changed my mind,289,High,Returning,9,1254.4,Debit Card,No,Legitimate
+576,Package was empty,203,High,VIP,10,859.88,Credit Card,Yes,Legitimate
+577,Fake product received,225,High,Frequent,10,324.77,Cash on Delivery,No,Fraud
+578,Defective after one use,186,Medium,VIP,10,866.87,UPI,Yes,Legitimate
+579,Color mismatch,150,Medium,VIP,7,1920.05,Credit Card,Yes,Fraud
+580,Package was empty,28,High,Returning,4,23.07,Debit Card,Yes,Fraud
+581,Item arrived damaged,161,High,Returning,1,85.1,UPI,Yes,Legitimate
+582,Size does not fit,207,High,Returning,3,519.93,UPI,Yes,Fraud
+583,Package was empty,131,High,New,5,1587.88,Debit Card,No,Legitimate
+584,Package was empty,173,Low,VIP,1,1562.44,UPI,No,Fraud
+585,Color mismatch,81,Low,New,10,1557.06,Net Banking,Yes,Fraud
+586,Fake product received,41,Medium,Returning,5,1009.78,Debit Card,Yes,Legitimate
+587,Color mismatch,248,High,New,3,869.55,Net Banking,Yes,Legitimate
+588,Defective after one use,62,Medium,New,8,804.39,Credit Card,No,Fraud
+589,Product not as described,89,Medium,Returning,7,796.68,Cash on Delivery,Yes,Legitimate
+590,Changed my mind,56,Medium,VIP,5,1372.63,Cash on Delivery,Yes,Legitimate
+591,Color mismatch,236,Medium,Frequent,3,648.27,Cash on Delivery,Yes,Fraud
+592,Product not as described,199,High,VIP,9,300.18,Credit Card,Yes,Legitimate
+593,Defective after one use,99,High,New,1,1481.77,Debit Card,Yes,Fraud
+594,Item arrived damaged,195,High,New,4,905.62,Credit Card,No,Legitimate
+595,Fake product received,128,Low,Frequent,8,971.22,Debit Card,Yes,Fraud
+596,Package was empty,289,Low,Frequent,2,129.62,Debit Card,No,Legitimate
+597,Missing parts,24,Low,VIP,10,549.91,UPI,Yes,Legitimate
+598,Size does not fit,217,Low,VIP,8,1953.46,Credit Card,No,Fraud
+599,Package was empty,292,Low,Returning,3,1006.3,Net Banking,Yes,Legitimate
+600,Changed my mind,291,Medium,Frequent,7,792.87,Debit Card,Yes,Fraud
+601,Defective after one use,201,High,Frequent,3,1992.03,Cash on Delivery,No,Legitimate
+602,Size does not fit,218,Low,Frequent,3,311.9,Net Banking,Yes,Legitimate
+603,Color mismatch,286,High,Returning,6,488.32,Debit Card,No,Fraud
+604,Package was empty,188,Medium,Returning,3,1308.42,Cash on Delivery,Yes,Legitimate
+605,Size does not fit,288,Low,VIP,2,1315.9,Cash on Delivery,Yes,Fraud
+606,Wrong product received,292,High,New,2,642.02,Debit Card,Yes,Fraud
+607,Color mismatch,230,Medium,VIP,10,1867.17,UPI,Yes,Legitimate
+608,Wrong product received,87,Low,New,9,1237.72,Cash on Delivery,Yes,Legitimate
+609,Changed my mind,33,Medium,New,7,276.83,Cash on Delivery,No,Fraud
+610,Product not as described,218,Medium,VIP,2,335.93,Debit Card,Yes,Fraud
+611,Item arrived damaged,158,Medium,Returning,10,1976.6,Debit Card,Yes,Legitimate
+612,Missing parts,270,High,Frequent,7,1776.3,Net Banking,No,Legitimate
+613,Package was empty,214,High,Frequent,6,1226.89,Cash on Delivery,Yes,Legitimate
+614,Missing parts,253,Low,Returning,8,1080.36,Credit Card,No,Legitimate
+615,Changed my mind,169,Medium,VIP,4,1549.62,UPI,No,Legitimate
+616,Color mismatch,170,High,New,8,1808.31,Net Banking,No,Legitimate
+617,Fake product received,77,Low,Returning,6,832.98,Net Banking,Yes,Legitimate
+618,Missing parts,123,Medium,New,4,654.91,Debit Card,Yes,Legitimate
+619,Wrong product received,250,High,Frequent,1,1052.4,Net Banking,Yes,Fraud
+620,Fake product received,214,Low,Returning,5,1135.33,Debit Card,Yes,Legitimate
+621,Product not as described,46,Medium,Frequent,4,1463.02,Net Banking,No,Legitimate
+622,Wrong product received,87,Low,New,9,1533.14,Credit Card,No,Fraud
+623,Missing parts,298,Low,VIP,3,441.58,Net Banking,No,Fraud
+624,Missing parts,60,High,New,3,1765.51,UPI,Yes,Legitimate
+625,Product not as described,95,Low,Frequent,0,299.3,Credit Card,No,Fraud
+626,Wrong product received,45,Low,VIP,2,331.06,UPI,Yes,Fraud
+627,Package was empty,204,Low,New,4,652.42,Net Banking,Yes,Fraud
+628,Fake product received,53,Medium,VIP,2,252.83,UPI,No,Fraud
+629,Fake product received,127,High,Returning,9,125.79,Cash on Delivery,Yes,Fraud
+630,Package was empty,167,Medium,Frequent,4,1055.53,Cash on Delivery,No,Legitimate
+631,Package was empty,274,High,VIP,7,1617.88,Cash on Delivery,Yes,Fraud
+632,Changed my mind,20,Low,New,7,1254.67,Credit Card,Yes,Fraud
+633,Color mismatch,43,Medium,Frequent,8,1614.03,Debit Card,Yes,Legitimate
+634,Size does not fit,150,Low,Frequent,4,1018.31,UPI,Yes,Legitimate
+635,Defective after one use,194,Medium,New,2,396.09,UPI,No,Fraud
+636,Item arrived damaged,89,Medium,Returning,10,926.63,Cash on Delivery,No,Fraud
+637,Color mismatch,48,High,Frequent,9,1452.68,UPI,Yes,Legitimate
+638,Package was empty,189,Medium,New,2,568.12,Credit Card,No,Fraud
+639,Fake product received,104,High,VIP,2,1194.43,UPI,No,Legitimate
+640,Size does not fit,231,Low,VIP,3,749.45,UPI,Yes,Fraud
+641,Product not as described,77,Medium,New,3,1827.57,Net Banking,Yes,Fraud
+642,Fake product received,98,Low,Frequent,7,1467.56,Cash on Delivery,No,Fraud
+643,Product not as described,70,High,Returning,3,1451.9,Net Banking,No,Legitimate
+644,Item arrived damaged,179,Low,New,5,939.08,Credit Card,Yes,Fraud
+645,Item arrived damaged,179,High,Returning,5,409.11,UPI,No,Fraud
+646,Missing parts,80,Medium,Returning,2,554.54,Credit Card,Yes,Legitimate
+647,Fake product received,199,High,Frequent,4,291.7,UPI,Yes,Legitimate
+648,Wrong product received,179,High,Frequent,8,892.86,Debit Card,Yes,Fraud
+649,Item arrived damaged,74,Medium,New,1,858.67,Debit Card,No,Fraud
+650,Size does not fit,190,Low,New,7,1139.9,Credit Card,No,Legitimate
+651,Missing parts,178,High,VIP,7,471.07,Debit Card,Yes,Fraud
+652,Defective after one use,220,Low,Frequent,5,912.03,Credit Card,Yes,Fraud
+653,Wrong product received,199,Medium,VIP,2,571.69,UPI,Yes,Legitimate
+654,Color mismatch,74,Medium,New,4,1070.16,Net Banking,No,Legitimate
+655,Package was empty,144,High,Returning,7,773.79,UPI,Yes,Fraud
+656,Color mismatch,195,High,Returning,2,1328.6,Credit Card,No,Legitimate
+657,Package was empty,257,Medium,New,7,360.59,Net Banking,Yes,Legitimate
+658,Package was empty,214,Medium,VIP,10,1323.73,Credit Card,Yes,Legitimate
+659,Package was empty,20,Low,Returning,7,1067.2,Net Banking,No,Legitimate
+660,Changed my mind,182,Medium,Frequent,6,1438.4,UPI,Yes,Legitimate
+661,Package was empty,281,Medium,Returning,4,134.2,Cash on Delivery,Yes,Legitimate
+662,Fake product received,203,Low,Frequent,0,478.13,Cash on Delivery,No,Fraud
+663,Color mismatch,227,Medium,VIP,8,430.32,Debit Card,No,Legitimate
+664,Changed my mind,216,Medium,VIP,2,584.06,Debit Card,Yes,Legitimate
+665,Wrong product received,28,Low,VIP,10,879.1,Debit Card,Yes,Legitimate
+666,Color mismatch,253,High,VIP,9,367.8,Cash on Delivery,No,Fraud
+667,Color mismatch,201,Low,Returning,6,1213.1,Cash on Delivery,No,Legitimate
+668,Fake product received,157,Medium,Frequent,0,1956.68,Cash on Delivery,No,Fraud
+669,Wrong product received,266,High,New,2,1463.07,Cash on Delivery,No,Fraud
+670,Fake product received,60,High,New,3,950.18,Credit Card,No,Legitimate
+671,Defective after one use,293,Low,VIP,7,1030.2,Net Banking,No,Fraud
+672,Defective after one use,170,Medium,Returning,0,1393.15,Cash on Delivery,No,Fraud
+673,Item arrived damaged,262,High,Returning,9,112.72,UPI,Yes,Fraud
+674,Missing parts,62,Low,New,4,511.58,Cash on Delivery,No,Fraud
+675,Size does not fit,27,High,New,9,357.48,Cash on Delivery,Yes,Fraud
+676,Defective after one use,109,Medium,Returning,7,369.81,Cash on Delivery,Yes,Fraud
+677,Wrong product received,94,High,Returning,7,1507.99,Net Banking,No,Legitimate
+678,Missing parts,105,Low,Frequent,0,1288.1,Credit Card,Yes,Legitimate
+679,Missing parts,224,Medium,Frequent,7,1494.84,Cash on Delivery,Yes,Fraud
+680,Color mismatch,262,Medium,Returning,8,1741.85,Credit Card,No,Fraud
+681,Color mismatch,181,High,New,1,1836.25,UPI,No,Fraud
+682,Defective after one use,158,Medium,New,4,1312.14,Net Banking,No,Legitimate
+683,Package was empty,119,High,Frequent,10,1383.65,Debit Card,No,Legitimate
+684,Item arrived damaged,54,Low,VIP,1,1055.28,Net Banking,No,Legitimate
+685,Size does not fit,148,Low,New,0,1242.6,Credit Card,Yes,Legitimate
+686,Wrong product received,64,High,Returning,6,1316.23,Cash on Delivery,Yes,Legitimate
+687,Product not as described,149,Medium,VIP,10,1873.0,Net Banking,No,Fraud
+688,Defective after one use,151,Low,New,4,1556.44,Net Banking,No,Fraud
+689,Item arrived damaged,152,Medium,Returning,7,148.1,Debit Card,No,Legitimate
+690,Missing parts,75,Low,VIP,3,1231.79,Credit Card,No,Fraud
+691,Wrong product received,37,Low,New,9,1457.81,Net Banking,Yes,Fraud
+692,Product not as described,20,Low,VIP,4,311.7,UPI,No,Legitimate
+693,Fake product received,271,Medium,VIP,6,1689.66,Credit Card,Yes,Legitimate
+694,Color mismatch,266,Low,Frequent,5,1366.85,Net Banking,Yes,Legitimate
+695,Defective after one use,293,Medium,New,7,1523.3,UPI,Yes,Legitimate
+696,Fake product received,40,Medium,Returning,4,1394.81,Credit Card,No,Fraud
+697,Wrong product received,244,High,Returning,2,81.04,Credit Card,Yes,Fraud
+698,Color mismatch,52,High,Frequent,7,1072.54,Net Banking,Yes,Legitimate
+699,Defective after one use,48,Medium,New,6,245.19,Cash on Delivery,No,Legitimate
+700,Package was empty,139,Low,New,2,982.9,Credit Card,No,Legitimate
+701,Changed my mind,86,Low,Returning,10,109.42,UPI,Yes,Fraud
+702,Package was empty,107,High,New,1,237.22,Cash on Delivery,Yes,Legitimate
+703,Changed my mind,238,Medium,VIP,5,250.4,Cash on Delivery,Yes,Fraud
+704,Changed my mind,43,High,Returning,5,135.81,UPI,Yes,Fraud
+705,Product not as described,209,High,Returning,7,494.85,Cash on Delivery,Yes,Legitimate
+706,Wrong product received,212,Low,New,7,170.64,Credit Card,Yes,Legitimate
+707,Package was empty,165,Medium,VIP,2,420.26,UPI,No,Fraud
+708,Changed my mind,109,High,New,9,368.2,Net Banking,Yes,Fraud
+709,Defective after one use,234,Low,Returning,3,243.84,Cash on Delivery,Yes,Fraud
+710,Fake product received,279,Low,VIP,10,1322.06,UPI,Yes,Legitimate
+711,Wrong product received,96,High,VIP,7,360.88,Credit Card,Yes,Fraud
+712,Size does not fit,127,Medium,Frequent,5,1237.47,Net Banking,Yes,Legitimate
+713,Item arrived damaged,295,Low,Returning,0,975.27,Credit Card,Yes,Legitimate
+714,Missing parts,186,Medium,Returning,10,1797.76,Debit Card,Yes,Fraud
+715,Changed my mind,70,Low,VIP,3,757.31,Debit Card,Yes,Fraud
+716,Package was empty,268,Low,VIP,2,440.17,Cash on Delivery,No,Legitimate
+717,Color mismatch,211,Low,VIP,3,1267.72,UPI,Yes,Fraud
+718,Product not as described,36,High,New,4,281.64,Net Banking,No,Fraud
+719,Product not as described,195,Low,Frequent,9,322.01,Cash on Delivery,Yes,Legitimate
+720,Wrong product received,230,High,VIP,3,1187.25,Net Banking,No,Legitimate
+721,Color mismatch,146,Low,Frequent,6,1163.14,Cash on Delivery,Yes,Legitimate
+722,Color mismatch,42,Low,VIP,8,76.9,Cash on Delivery,No,Fraud
+723,Wrong product received,251,Medium,Returning,1,1121.39,Credit Card,No,Legitimate
+724,Product not as described,203,Medium,Returning,10,1997.91,Credit Card,No,Fraud
+725,Product not as described,255,High,New,7,932.88,Debit Card,No,Legitimate
+726,Defective after one use,257,High,New,10,150.69,UPI,Yes,Fraud
+727,Color mismatch,158,High,Returning,10,171.11,UPI,Yes,Fraud
+728,Item arrived damaged,76,Medium,Frequent,7,1242.08,UPI,No,Legitimate
+729,Fake product received,54,High,Returning,2,1962.69,Debit Card,Yes,Fraud
+730,Package was empty,127,High,Returning,5,711.9,UPI,No,Fraud
+731,Item arrived damaged,52,Medium,Frequent,7,977.59,Cash on Delivery,Yes,Fraud
+732,Fake product received,292,Medium,VIP,9,742.61,Credit Card,Yes,Fraud
+733,Wrong product received,61,Medium,Returning,4,1916.93,Credit Card,Yes,Legitimate
+734,Size does not fit,77,High,Returning,7,309.49,Debit Card,Yes,Fraud
+735,Color mismatch,297,Low,VIP,5,846.06,Credit Card,No,Legitimate
+736,Wrong product received,31,Low,Frequent,6,1161.62,UPI,No,Fraud
+737,Missing parts,175,High,Returning,4,351.76,UPI,Yes,Fraud
+738,Defective after one use,167,Low,Returning,5,575.92,Debit Card,Yes,Fraud
+739,Product not as described,109,High,Returning,2,483.43,Credit Card,No,Legitimate
+740,Missing parts,153,Medium,Returning,3,1129.35,Credit Card,No,Fraud
+741,Product not as described,210,Medium,Returning,8,610.1,Credit Card,No,Fraud
+742,Product not as described,254,Medium,Returning,0,1940.6,Cash on Delivery,No,Fraud
+743,Missing parts,168,High,Returning,9,1459.8,Net Banking,No,Legitimate
+744,Missing parts,40,Low,New,4,59.34,Cash on Delivery,Yes,Fraud
+745,Defective after one use,67,Medium,New,9,1286.21,Cash on Delivery,Yes,Fraud
+746,Changed my mind,31,Low,VIP,10,1346.4,Credit Card,No,Legitimate
+747,Missing parts,182,High,New,10,728.52,Debit Card,No,Fraud
+748,Color mismatch,210,Low,Frequent,5,709.2,Net Banking,Yes,Legitimate
+749,Missing parts,232,Medium,Frequent,2,1613.29,Net Banking,No,Legitimate
+750,Package was empty,64,Low,Returning,4,954.48,Cash on Delivery,No,Legitimate
+751,Package was empty,212,Low,New,6,1281.22,UPI,No,Legitimate
+752,Fake product received,256,High,Returning,3,380.15,Net Banking,No,Fraud
+753,Item arrived damaged,174,High,Frequent,7,1122.97,Net Banking,Yes,Legitimate
+754,Item arrived damaged,98,Medium,Frequent,10,1670.14,Net Banking,Yes,Fraud
+755,Color mismatch,111,Medium,Returning,0,247.52,UPI,No,Legitimate
+756,Package was empty,205,High,VIP,9,877.78,UPI,No,Legitimate
+757,Defective after one use,282,High,New,4,334.07,Credit Card,Yes,Fraud
+758,Missing parts,89,Medium,Returning,0,552.61,Net Banking,No,Legitimate
+759,Size does not fit,169,High,New,8,395.69,Debit Card,Yes,Legitimate
+760,Fake product received,185,Medium,Frequent,4,1374.03,UPI,Yes,Fraud
+761,Product not as described,26,Low,Frequent,5,1559.83,Net Banking,No,Legitimate
+762,Wrong product received,131,Low,Returning,3,1592.26,Cash on Delivery,Yes,Fraud
+763,Missing parts,59,Low,Returning,0,964.24,UPI,No,Legitimate
+764,Missing parts,287,Medium,Returning,4,67.23,Credit Card,Yes,Legitimate
+765,Product not as described,136,Medium,Returning,3,269.13,Credit Card,No,Legitimate
+766,Wrong product received,29,Medium,VIP,0,400.74,Credit Card,Yes,Fraud
+767,Wrong product received,149,Low,New,4,1338.5,Credit Card,Yes,Legitimate
+768,Package was empty,122,Low,Frequent,0,190.65,UPI,No,Fraud
+769,Product not as described,276,High,Returning,8,1144.77,Credit Card,Yes,Legitimate
+770,Changed my mind,164,Low,New,1,1849.22,Cash on Delivery,No,Fraud
+771,Package was empty,114,Medium,New,2,1671.14,Net Banking,No,Legitimate
+772,Fake product received,136,Medium,New,5,255.99,Credit Card,Yes,Fraud
+773,Defective after one use,167,High,New,1,662.95,Credit Card,No,Fraud
+774,Missing parts,179,High,VIP,3,1112.29,UPI,No,Legitimate
+775,Wrong product received,263,High,Frequent,2,35.44,Net Banking,Yes,Fraud
+776,Missing parts,287,High,New,1,295.3,Net Banking,Yes,Legitimate
+777,Wrong product received,206,Low,Frequent,3,1193.97,Net Banking,Yes,Legitimate
+778,Color mismatch,275,Medium,Frequent,10,1887.02,UPI,No,Fraud
+779,Missing parts,281,Medium,Returning,7,224.99,UPI,No,Fraud
+780,Changed my mind,88,Low,New,0,1662.32,Net Banking,Yes,Legitimate
+781,Color mismatch,187,Low,Frequent,9,1250.23,Credit Card,No,Fraud
+782,Changed my mind,170,High,VIP,7,1014.54,Cash on Delivery,No,Legitimate
+783,Item arrived damaged,240,Low,VIP,7,635.97,Net Banking,No,Fraud
+784,Item arrived damaged,36,Low,Frequent,2,988.04,Debit Card,No,Fraud
+785,Missing parts,76,High,VIP,10,1112.03,Cash on Delivery,No,Fraud
+786,Fake product received,100,High,New,6,534.15,Cash on Delivery,No,Fraud
+787,Size does not fit,184,Low,New,9,99.79,UPI,No,Legitimate
+788,Defective after one use,214,Low,VIP,5,1983.97,Net Banking,No,Legitimate
+789,Changed my mind,146,Low,Frequent,9,179.03,Credit Card,No,Legitimate
+790,Defective after one use,106,Low,Frequent,0,927.21,Net Banking,No,Fraud
+791,Item arrived damaged,260,High,New,5,761.7,Net Banking,No,Legitimate
+792,Missing parts,71,High,Returning,5,998.5,UPI,Yes,Fraud
+793,Defective after one use,243,Low,VIP,10,1696.19,Credit Card,Yes,Fraud
+794,Size does not fit,44,Medium,VIP,3,1252.9,Credit Card,Yes,Fraud
+795,Size does not fit,54,High,VIP,6,427.38,Credit Card,No,Fraud
+796,Color mismatch,296,Medium,Returning,6,810.58,Cash on Delivery,No,Legitimate
+797,Item arrived damaged,284,Low,VIP,3,1325.0,Net Banking,No,Fraud
+798,Package was empty,50,High,Returning,5,930.35,Debit Card,Yes,Fraud
+799,Color mismatch,230,Medium,New,10,415.08,Net Banking,No,Fraud
+800,Product not as described,151,High,Returning,6,484.58,Debit Card,Yes,Legitimate
+801,Changed my mind,178,Medium,VIP,8,1982.67,Net Banking,Yes,Legitimate
+802,Product not as described,159,Low,New,4,1581.44,UPI,Yes,Legitimate
+803,Missing parts,30,Low,New,5,1207.18,Credit Card,No,Fraud
+804,Wrong product received,223,High,Returning,3,232.75,Cash on Delivery,Yes,Fraud
+805,Missing parts,66,Low,New,5,665.28,Cash on Delivery,No,Legitimate
+806,Color mismatch,131,Low,New,2,436.08,UPI,No,Fraud
+807,Size does not fit,48,Medium,Frequent,1,639.81,Net Banking,No,Legitimate
+808,Size does not fit,94,Medium,VIP,5,1644.52,Credit Card,Yes,Legitimate
+809,Changed my mind,149,High,VIP,4,1281.51,UPI,Yes,Legitimate
+810,Missing parts,218,Low,VIP,4,608.77,Debit Card,No,Legitimate
+811,Product not as described,244,High,Frequent,10,818.51,Credit Card,No,Legitimate
+812,Missing parts,261,High,VIP,5,1437.6,Credit Card,Yes,Fraud
+813,Fake product received,53,Medium,VIP,9,1461.17,Cash on Delivery,No,Fraud
+814,Item arrived damaged,46,High,Returning,10,892.38,Debit Card,Yes,Fraud
+815,Changed my mind,176,Medium,New,1,324.07,Cash on Delivery,Yes,Fraud
+816,Defective after one use,251,Medium,Returning,4,355.22,Cash on Delivery,No,Fraud
+817,Changed my mind,63,Medium,Frequent,2,793.05,Net Banking,Yes,Legitimate
+818,Item arrived damaged,137,Low,VIP,3,530.95,Debit Card,Yes,Fraud
+819,Package was empty,239,High,Frequent,2,187.23,UPI,Yes,Legitimate
+820,Item arrived damaged,289,Medium,VIP,10,993.36,Debit Card,Yes,Legitimate
+821,Size does not fit,167,High,VIP,6,269.1,Debit Card,Yes,Fraud
+822,Changed my mind,234,Low,VIP,2,67.26,UPI,Yes,Fraud
+823,Changed my mind,209,High,VIP,1,30.54,Debit Card,No,Fraud
+824,Changed my mind,216,High,VIP,9,519.89,Credit Card,Yes,Legitimate
+825,Defective after one use,140,Medium,Frequent,9,1879.25,Cash on Delivery,Yes,Legitimate
+826,Size does not fit,278,High,VIP,4,1955.27,UPI,Yes,Legitimate
+827,Package was empty,111,Medium,Returning,8,990.75,UPI,No,Legitimate
+828,Wrong product received,182,High,VIP,2,528.21,UPI,Yes,Legitimate
+829,Missing parts,163,High,Frequent,6,573.02,UPI,No,Fraud
+830,Color mismatch,104,Medium,VIP,2,1115.79,Net Banking,Yes,Legitimate
+831,Product not as described,47,Low,Returning,0,945.79,Debit Card,No,Fraud
+832,Wrong product received,273,Low,VIP,5,1977.75,Cash on Delivery,No,Fraud
+833,Missing parts,77,High,Returning,1,705.71,Debit Card,No,Legitimate
+834,Product not as described,280,Medium,Returning,9,1996.03,Credit Card,Yes,Fraud
+835,Wrong product received,146,Medium,New,5,61.66,Credit Card,No,Fraud
+836,Package was empty,74,Medium,Returning,0,171.32,Net Banking,No,Fraud
+837,Package was empty,22,Medium,New,10,1248.51,Net Banking,No,Legitimate
+838,Changed my mind,44,High,Frequent,5,1598.31,Credit Card,No,Legitimate
+839,Color mismatch,150,Low,Returning,6,187.48,Debit Card,Yes,Fraud
+840,Color mismatch,165,High,Returning,1,604.11,Net Banking,No,Legitimate
+841,Defective after one use,69,Medium,Returning,7,896.43,Net Banking,No,Fraud
+842,Package was empty,236,Low,VIP,5,1231.6,Net Banking,No,Legitimate
+843,Item arrived damaged,282,Medium,VIP,10,456.22,Debit Card,No,Legitimate
+844,Size does not fit,259,Medium,New,7,607.78,Debit Card,No,Legitimate
+845,Fake product received,238,Medium,New,8,162.3,Credit Card,Yes,Fraud
+846,Color mismatch,68,Medium,Frequent,5,517.17,Credit Card,Yes,Legitimate
+847,Missing parts,111,Low,VIP,0,175.75,UPI,No,Fraud
+848,Missing parts,155,Medium,Returning,3,378.32,Cash on Delivery,No,Legitimate
+849,Color mismatch,293,Low,New,6,242.19,Debit Card,No,Fraud
+850,Color mismatch,269,Medium,Frequent,10,1926.65,Net Banking,No,Legitimate

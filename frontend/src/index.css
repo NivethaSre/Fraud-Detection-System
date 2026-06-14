@@ -1,0 +1,312 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Peachy-Pink Theme */
+  --color-bg: #FFF9F0;
+  --color-card: #FFFFFF;
+  --color-card-hover: #FFF5EB;
+  --color-primary: #FF6B9D;
+  --color-secondary: #FFB3B3;
+  --color-accent: #FFCCB3;
+  --color-text: #2D1B1B;
+  --color-text-muted: #8B6B6B;
+  --color-border: #FFE0D6;
+  --color-success: #FF9A9E;
+  --color-warning: #FFCCB3;
+  --color-danger: #FF6B9D;
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 204, 179, 0.3);
+
+  --sidebar-bg: linear-gradient(180deg, #FFF5EB 0%, #FFE8DB 100%);
+
+  color-scheme: light;
+  /* Default to light for peachy-pink */
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light Theme - Softer variant */
+[data-theme='light'] {
+  --color-bg: #FFFBF7;
+  --color-card: #FFFFFF;
+  --color-card-hover: #FFF9F5;
+  --color-primary: #FF8FAB;
+  --color-secondary: #FFC7C7;
+  --color-accent: #FFD9C9;
+  --color-text: #3D2B2B;
+  --color-text-muted: #9B7B7B;
+  --color-border: #FFEEE6;
+
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(255, 217, 201, 0.4);
+
+  --sidebar-bg: linear-gradient(180deg, #FFFBF7 0%, #FFF0E8 100%);
+  color-scheme: light;
+}
+
+/* Dark Theme - Deep burgundy */
+[data-theme='dark'] {
+  --color-bg: #1A0E0E;
+  --color-card: #2D1B1B;
+  --color-card-hover: #3D2626;
+  --color-primary: #FF6B9D;
+  --color-secondary: #FF9AB8;
+  --color-accent: #FFCCB3;
+  --color-text: #FFF5EB;
+  --color-text-muted: #D4B8B8;
+  --color-border: #4D3131;
+
+  --glass-bg: rgba(45, 27, 27, 0.7);
+  --glass-border: rgba(255, 107, 157, 0.2);
+
+  --sidebar-bg: linear-gradient(180deg, #2D1B1B 0%, #1A0E0E 100%);
+  color-scheme: dark;
+}
+
+/* Midnight Theme - Deep rose */
+[data-theme='midnight'] {
+  --color-bg: #2D1B1B;
+  --color-card: #3D2626;
+  --color-card-hover: #4D3131;
+  --color-primary: #FF6B9D;
+  --color-secondary: #FF9AB8;
+  --color-accent: #FFCCB3;
+  --color-text: #FFF5EB;
+  --color-text-muted: #D4B8B8;
+  --color-border: #5D3B3B;
+
+  --glass-bg: rgba(61, 38, 38, 0.7);
+  --glass-border: rgba(255, 107, 157, 0.2);
+
+  --sidebar-bg: linear-gradient(180deg, #3D2626 0%, #2D1B1B 100%);
+  color-scheme: dark;
+}
+
+/* AI Theme - Futuristic cyber */
+[data-theme='ai'] {
+  --color-bg: #0A0E1A;
+  --color-card: #151B2E;
+  --color-card-hover: #1F2842;
+  --color-primary: #00F0FF;
+  --color-secondary: #7B61FF;
+  --color-accent: #FF00FF;
+  --color-text: #E0F7FF;
+  --color-text-muted: #8BA5B8;
+  --color-border: #2A3F5F;
+
+  --glass-bg: rgba(21, 27, 46, 0.7);
+  --glass-border: rgba(0, 240, 255, 0.2);
+
+  --sidebar-bg: linear-gradient(180deg, #151B2E 0%, #0A0E1A 100%);
+  color-scheme: dark;
+}
+
+/* Nature Theme - Warm earth tones */
+[data-theme='nature'] {
+  --color-bg: #F5F0D7;
+  --color-card: #FFFEF9;
+  --color-card-hover: #FFF9EB;
+  --color-primary: #E8A87C;
+  --color-secondary: #F4C2A0;
+  --color-accent: #FFD9B3;
+  --color-text: #4A3F2F;
+  --color-text-muted: #8B7B6B;
+  --color-border: #E8D9C0;
+
+  --glass-bg: rgba(255, 254, 249, 0.7);
+  --glass-border: rgba(232, 168, 124, 0.3);
+
+  --sidebar-bg: linear-gradient(180deg, #FFFEF9 0%, #F5F0D7 100%);
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  perspective: 1000px;
+  /* Enable 3D transforms globally */
+  transition: background 0.3s ease;
+}
+
+/* 3D Transform Utilities */
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+/* Keyframe Animations */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 40px rgba(59, 130, 246, 0.8);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes rotate-gradient {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-card-hover);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-panel:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Input styling */
+textarea,
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text);
+  font-family: inherit;
+  resize: vertical;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  /* Adjust color based on theme if doable, or keep generic blue-ish glow */
+  background: var(--color-card-hover);
+}
+
+/* Button Reset & Base */
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.7em 1.4em;
+  font-size: 0.95em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--color-card);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
